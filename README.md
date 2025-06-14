@@ -1,4 +1,4 @@
-# PingCastle Enterpirse Dockerized!
+# PingCastle Enterprise Dockerized!
 File Structure 
 
 pingcastle-enterprise/
