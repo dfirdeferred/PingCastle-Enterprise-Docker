@@ -1,7 +1,7 @@
 # PingCastle Enterprise Dockerized!
 This deployment consists of 2 docker containers: an ASP.NET applictation and a MSSQL instance deployed on linux.
 
-File Structure 
+# File Structure: 
 
 pingcastle-enterprise/
 
