@@ -22,6 +22,7 @@ Docker Compose v.1.25 or later
 2. Copy the PingCastleEnterprise binaries folder into the root of the pingcastle-enterprise folder
 3. Copy appsettings.Production.json into the PingCastleEnterprise folder
 4. As admin or sudo (depending on your OS) run: 
-      docker-compose up --build
+
+    docker-compose up --build
 
 PingCastle will bind to port 5000 of the docker server.
