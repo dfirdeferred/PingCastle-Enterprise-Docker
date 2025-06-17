@@ -19,7 +19,7 @@ Docker v.28.1.1 or later
 
 Docker Compose v.1.25 or later
 
-#Instructions
+# Instructions
 1. Edit appsettings.Production.json to include the PingCastle Enterprise license. You can also modify DB info here (ensure that these settings match in docker-compose.yml)
 2. Copy the PingCastleEnterprise binaries folder into the root of the pingcastle-enterprise folder
 3. Copy appsettings.Production.json into the PingCastleEnterprise folder
