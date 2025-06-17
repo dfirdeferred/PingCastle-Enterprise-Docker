@@ -1,4 +1,6 @@
 # PingCastle Enterprise Dockerized!
+This deployment consists of 2 docker containers: an ASP.NET applictation and a MSSQL instance deployed on linux.
+
 File Structure 
 
 pingcastle-enterprise/
@@ -26,3 +28,7 @@ Docker Compose v.1.25 or later
     docker-compose up --build
 
 PingCastle will bind to port 5000 of the docker server.
+
+# References
+https://learn.microsoft.com/en-us/sql/linux/quickstart-install-connect-docker?view=sql-server-ver17&tabs=cli&pivots=cs1-bash
+
