@@ -12,3 +12,15 @@ pingcastle-enterprise/
       └── PingCastleEnterprise/             <-- your licensed .NET DLLs
             └── appsettings.Production.json
 
+# Requirements
+Docker v.28.1.1 or later
+Docker Compose v.1.25 or later
+
+#Instructions
+1. Edit appsettings.Production.json to include the PingCastle Enterprise license. You can also modify DB info here (ensure that these settings match in docker-compose.yml)
+2. Copy the PingCastleEnterprise binaries folder into the root of the pingcastle-enterprise folder
+3. Copy appsettings.Production.json into the PingCastleEnterprise folder
+4. As admin or sudo (depending on your OS) run: 
+      docker-compose up --build
+
+PingCastle will bind to port 5000 of the docker server.
