@@ -11,7 +11,7 @@ pingcastle-enterprise/
       
       ├── appsettings.Production.json       <-- update with PingCastle License and modify the DB credentials as desired.
       
-      └── PingCastleEnterprise/             <-- your licensed .NET DLLs
+      └── PingCastleEnterprise/             <-- your licensed PingCastle Enterprise .NET DLLs
             └── appsettings.Production.json
 
 # Requirements
