@@ -12,7 +12,7 @@ pingcastle-enterprise/
       ├── appsettings.Production.json       <-- update with PingCastle License and modify the DB credentials as desired.
       
       └── PingCastleEnterprise/             <-- your licensed PingCastle Enterprise .NET DLLs
-            └── appsettings.Production.json
+            └── appsettings.Production.json <--- Copy of modified appsettings.rodcution.json from above.
 
 # Requirements
 Docker v.28.1.1 or later
