@@ -3,11 +3,12 @@ File Structure
 
 pingcastle-enterprise/
 
-      ├── docker-compose.yml
+      ├── docker-compose.yml  <--- Update with desired DB credentials
       
       ├── Dockerfile
       
-      ├── appsettings.Production.json       <-- updated with logging + health checks
+      ├── appsettings.Production.json       <-- update with PingCastle License and modify the DB credentials as desired.
       
       └── PingCastleEnterprise/             <-- your licensed .NET DLLs
+            └── appsettings.Production.json
 
