@@ -19,6 +19,8 @@ Docker v.28.1.1 or later
 
 Docker Compose v.1.25 or later
 
+*WSL feature installed in Windows if using the WSL method.
+
 # Instructions
 1. Edit appsettings.Production.json to include the PingCastle Enterprise license. You can also modify DB info here (ensure that these settings match in docker-compose.yml)
 2. Copy the PingCastleEnterprise binaries folder into the root of the pingcastle-enterprise folder
@@ -32,7 +34,7 @@ PingCastle will bind to port 5000 of the docker server.
 
 # WSL Instructions
  
-- Open Admin PowerShell
+- Open Powershell Console as Admin
 - Run wsl --install ubuntu
 - This should do the setup and feature installss etc
 - If this is a Windows VM you will likely need to power off and run Set-VMProcessor VM_Name -ExposeVirtualizationExtensions $true
